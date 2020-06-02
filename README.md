@@ -1,2 +1,2 @@
 # MathLib
-A simple math python library
+A simple python math library
