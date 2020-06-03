@@ -95,3 +95,17 @@ def qdeq(a, b, c):
         x1 = str(x1) + "i"
         x2 = str(x2) + "i"
     return x1, x2
+
+
+def fract(arg):
+    cond = True
+    domi = 0
+    deno = 0
+    while cond:
+        domi = float(format(domi, ".1f"))
+        domi += arg
+        deno += 1
+        if domi == int(domi):
+            cond = False
+            break
+    return str(int(domi)) + "/" + str(deno)
