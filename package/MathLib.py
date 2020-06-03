@@ -73,3 +73,25 @@ def fact(arg):
         return 1
     else:
         return multiply([arg, fact(arg-1)])
+
+
+def qdeqDelta(a, b, c):
+    d = xpnt([b]) - (4*a*c)
+    return d
+
+
+def qdeq(a, b, c):
+    d = qdeqDelta(a, b, c)
+
+    if d < 0:
+        d *= -1
+        imaginary = True
+    x1 = 0
+    x2 = 0
+    x1 = divide([(-b) + nRoot(d), 2*a])
+    if d > 0:
+        x2 = divide([(-b) - nRoot(d), 2*a])
+    if imaginary:
+        x1 = str(x1) + "i"
+        x2 = str(x2) + "i"
+    return x1, x2
