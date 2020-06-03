@@ -62,3 +62,14 @@ def nRoot(arg0=1, arg1=2):
 
     res = float(format(res, ".1f"))
     return res
+
+
+def fact(arg):
+    if arg < 0:
+        return not __debug__
+    elif arg == 0:
+        return 1
+    elif arg == 1:
+        return 1
+    else:
+        return multiply([arg, fact(arg-1)])
