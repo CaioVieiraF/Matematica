@@ -1,0 +1,7 @@
+README.md
+setup.py
+Matematica/__init__.py
+Matematica.egg-info/PKG-INFO
+Matematica.egg-info/SOURCES.txt
+Matematica.egg-info/dependency_links.txt
+Matematica.egg-info/top_level.txt
