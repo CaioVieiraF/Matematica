@@ -8,4 +8,4 @@ With MathLib, it's easy to operate with multiple numbers:
 
 to install it, use the command:
 
-`pip install matematica`
+`pip install Matematica`
