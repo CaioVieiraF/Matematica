@@ -10,6 +10,10 @@ Welcome to Matematica's documentation!
     :maxdepth: 3
 
     intro
+    operators
+    exponentiation
+    utilities
+    others
 
 
 
