@@ -6,7 +6,9 @@ With MathLib, it's easy to operate with multiple numbers:
 ![example image](https://github.com/CaioVieiraF/Matematica/blob/master/media/Peek%202020-06-30%2022-16.gif)
 
 
-### to install it, use the command:
+### Instalation:
+
+to install it, use the command:
 
 `pip install Matematica`
 
