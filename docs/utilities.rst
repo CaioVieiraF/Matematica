@@ -18,7 +18,7 @@ Here are some tools that make things nicer.
 
     **output:**
 
-    .. code-block::
+    .. code-block:: python
 
         Before: 0.24761904761904763
         After: 1/5

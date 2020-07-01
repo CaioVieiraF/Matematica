@@ -17,7 +17,7 @@ they are unstable at the moment, but works well in expected situations.
 
     **output:**
 
-    .. code-block::
+    .. code-block:: python
 
         16
 
@@ -33,7 +33,7 @@ they are unstable at the moment, but works well in expected situations.
 
     **output:**
 
-    .. code-block::
+    .. code-block:: python
 
         9
 
@@ -54,7 +54,7 @@ they are unstable at the moment, but works well in expected situations.
 
     **output:**
 
-    .. code-block::
+    .. code-block:: python
 
         2.0
 
@@ -69,7 +69,7 @@ they are unstable at the moment, but works well in expected situations.
 
     **output:**
 
-    .. code-block::
+    .. code-block:: python
 
         3.1
 

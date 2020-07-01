@@ -11,7 +11,9 @@ Matematica is a more pythonish simple and powerful python library.
     x = mat.add([n for n in range(10)])
     print(x)
 
-output::
+**output::**
+
+.. code-block:: python
 
     45
 
@@ -28,7 +30,9 @@ I've re-created all 4 basic operators so you can easily manage them.
     x = mat.divide([mat.multiply([4, 6, 9]), mat.subtract([2, 3, 4])])
     print(x)
 
-output::
+**output:**
+
+.. code-block:: python
 
     -43.2
 
@@ -50,7 +54,9 @@ and the best part is: IT'S HUMAN READABLE!
     n = x([q(1, 3, 2)[1], x([r(8, 3), 10])])
     print(n)
 
-output::
+**output:**
+
+.. code-block:: python
 
     4294967296.0
 
@@ -72,7 +78,9 @@ There are some situations that you can get stuck on like when working with float
     print(f"Before: {y}\nAfter: {x}")
 
 
-output::
+**output:**
+
+.. code-block:: python
 
     Before: 0.24761904761904763
     After: 1/5

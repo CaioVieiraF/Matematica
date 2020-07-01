@@ -33,6 +33,6 @@ You can do all kind of things that involves lists, like list comprehensions:
 
 **output:**
 
-.. code-block::
+.. code-block:: python
 
     45
