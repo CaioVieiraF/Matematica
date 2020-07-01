@@ -7,7 +7,9 @@ Welcome to Matematica's documentation!
 ======================================
 
 .. toctree::
-   intro
+    :maxdepth: 3
+
+    intro
 
 
 
