@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Matematica
-Version: 0.9.2
+Version: 0.9.3
 Summary: A simple, and powerful, math library
 Home-page: https://github.com/CaioVieiraF/MathLib
 Author: Caio Vieira
@@ -14,15 +14,15 @@ Description: # MathLib
         ![example image](https://github.com/CaioVieiraF/MathLib/blob/master/media/Peek%202020-06-30%2013-15.gif)
         
         
-        ###to install it, use the command:
+        ### to install it, use the command:
         
         `pip install Matematica`
         
-        ###usage:
+        ### usage:
         `import Matematica as mat`
         
-        ###docs:
-        The documentation is [Here](#)
+        ### docs:
+        The documentation is [Here](https://matematica-python.readthedocs.io/en/latest/)
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
