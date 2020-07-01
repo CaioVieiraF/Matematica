@@ -76,13 +76,13 @@ def fact(arg):
         return multiply([arg, fact(arg - 1)])
 
 
-def qdeqDelta(a, b, c):
+def qdeqDisc(a, b, c):
     d = xpnt([b]) - (4 * a * c)
     return d
 
 
 def qdeq(a, b, c):
-    d = qdeqDelta(a, b, c)
+    d = qdeqDisc(a, b, c)
 
     if d < 0:
         return not __debug__
