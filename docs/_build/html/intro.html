@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction &#8212; Matematica 0.9.3 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>Matematica is a more pythonish simple and powerful python library.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">Matematica</span> <span class="k">as</span> <span class="nn">mat</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">mat</span><span class="o">.</span><span class="n">add</span><span class="p">([</span><span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>output:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">45</span>
+</pre></div>
+</div>
+<div class="section" id="basic-operators">
+<h2>Basic operators<a class="headerlink" href="#basic-operators" title="Permalink to this headline">¶</a></h2>
+<p>I’ve re-created all 4 basic operators so you can easily manage them.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">Matematica</span> <span class="k">as</span> <span class="nn">mat</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">mat</span><span class="o">.</span><span class="n">divide</span><span class="p">([</span><span class="n">mat</span><span class="o">.</span><span class="n">multiply</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">]),</span> <span class="n">mat</span><span class="o">.</span><span class="n">subtract</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>output:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span><span class="mf">43.2</span>
+</pre></div>
+</div>
+<p>It is really more convenient this way because you don’t get confused within your code.</p>
+<p>you can read more about them in <a class="reference external" href="#">Operators</a></p>
+</div>
+<div class="section" id="quadratic-operators">
+<h2>Quadratic operators<a class="headerlink" href="#quadratic-operators" title="Permalink to this headline">¶</a></h2>
+<p>You can do quadratic equations within square roots with recursive exponentiation,
+and the best part is: IT’S HUMAN READABLE!</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">Matematica</span> <span class="kn">import</span> <span class="n">nRoot</span> <span class="k">as</span> <span class="n">r</span><span class="p">,</span> <span class="n">qdeq</span> <span class="k">as</span> <span class="n">q</span><span class="p">,</span> <span class="n">xpnt</span> <span class="k">as</span> <span class="n">x</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="n">x</span><span class="p">([</span><span class="n">q</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">],</span> <span class="n">x</span><span class="p">([</span><span class="n">r</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="mi">10</span><span class="p">])])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>output:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">4294967296.0</span>
+</pre></div>
+</div>
+<p>you can see that it’s easy to mix up things. There are some limitations though.
+See more in <a class="reference external" href="#">Exponentiation</a></p>
+</div>
+<div class="section" id="utilities">
+<h2>Utilities<a class="headerlink" href="#utilities" title="Permalink to this headline">¶</a></h2>
+<p>There are some situations that you can get stuck on like when working with floats.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">Matematica</span> <span class="kn">import</span> <span class="n">fract</span><span class="p">,</span> <span class="n">divide</span>
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">divide</span><span class="p">([</span><span class="mi">78</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">fract</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="s1">&#39;.1f&#39;</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Before: </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="se">\n</span><span class="s2">After: </span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>output:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Before</span><span class="p">:</span> <span class="mf">0.24761904761904763</span>
+<span class="n">After</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">5</span>
+</pre></div>
+</div>
+<p>there are some limitations though(for now). See more in <a class="reference external" href="#">Utilities</a></p>
+</div>
+<div class="section" id="others">
+<h2>Others<a class="headerlink" href="#others" title="Permalink to this headline">¶</a></h2>
+<p>there are some useful but not categorized functions that you can find in <a class="reference external" href="#">Others</a></p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Matematica</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Caio vieira.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/intro.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
